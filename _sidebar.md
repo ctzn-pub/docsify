@@ -1,5 +1,4 @@
 - [About](/)
-- [Glossary](/_glossary 'Glossary of defined terms')
 - [Text](/text)
 - [Embedding Content](/embed)
 - [Equations](/equations)
