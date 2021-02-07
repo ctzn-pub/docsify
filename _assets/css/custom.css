@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root {
+  /* --base-background-color: #e6f2ff; */
+  --base-font-family: 'Montserrat', sans-serif;
+  --code-inline-background: #d5eafa;
+  --code-theme-background: #d5eafa;
+  --sidebar-toggle-background: #d5eafa;
+  --copycode-background: #b3d9ff;
+  --copycode-color: #000;
+}
+
+.sidebar {
+  background-color: #e6f2ff;
+}
+
+.sidebar > h1 .app-name-link {
+  color: #000;
+}
+
+.markdown-section iframe {
+  border: none;
+}
+
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
