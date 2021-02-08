@@ -1,6 +1,4 @@
-# Embedding Content
-
-## Images
+# Images
 
 ### Using standard markdown syntax
 
@@ -48,21 +46,3 @@
 ```
 
 ![logo](https://docsify.js.org/_media/icon.svg ':class=centeredImage')
-
-## Tableau
-
-```md
-<iframe src="https://public.tableau.com/views/sunder1/overall?:display_count=no&amp;:showVizHome=no#22" scrolling="no" style="border-style: none;width:100%;height: 501px;"></iframe>
-```
-
-<iframe src="https://public.tableau.com/views/sunder1/overall?:display_count=no&amp;:showVizHome=no#22" scrolling="no" style="border-style: none;width:100%;height: 501px;"></iframe>
-
-## HTMLwidgets
-
-```md
-[frequency](_assets/html/frequency.html ':include')
-```
-
-[frequency](_assets/html/frequency.html ':include')
-
-## Slideshows
