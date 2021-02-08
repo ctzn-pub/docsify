@@ -50,6 +50,13 @@
           errorText  : 'Error',
           successText: 'Copied'
         },
+        tabs: {
+    persist    : true,      // default
+    sync       : true,      // default
+    theme      : 'classic', // default
+    tabComments: true,      // default
+    tabHeadings: true       // default
+  },
         auto2top: true,
         plugins: [
           function(hook) {
@@ -78,11 +85,13 @@
   <script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
   <!-- docsify (latest v4.x.x)-->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  
-  <!-- docsify-tabs (latest v1.x.x) -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   
+
+<!-- docsify-tabs (latest v1.x.x) -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
   </body>
   </html>
   

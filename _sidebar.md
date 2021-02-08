@@ -5,6 +5,6 @@
 - [Including Widgets](/includes)
 - [Widgets II](/iframe)
 - [Slides](/slideshows)
-- [Slides](/equations)
-- [Tabs](/plugins)
+- [Equations](/equations)
+- [Tabs](/tabs)
 - [Glossary](/_glossary 'Glossary of defined terms')
