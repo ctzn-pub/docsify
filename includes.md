@@ -1,23 +1,19 @@
 # Includes
 
+## Adjusting size via includes
+
+This has a width of 70%.
+
+[frequency](_assets/html/frequency.html ':include  :type=iframe class=small height=300px')
+
 ```md
-<div class="small">
-
-[frequency](_assets/html/frequency.html ':include')
-
-<div>
+[frequency](_assets/html/frequency.html ':include  :type=iframe class=small height=300px')
 ```
-
-<div class="small">
-
-[frequency](_assets/html/frequency.html ':include')
-
-</div>
 
 ## Full width
 
-```md
-[frequency](_assets/html/frequency.html ':include')
-```
+[frequency](_assets/html/frequency.html ':include height=300px width=100%')
 
-[frequency](_assets/html/frequency.html ':include')
+```md
+[frequency](_assets/html/frequency.html ':include height=300px width=100%')
+```
