@@ -31,3 +31,7 @@ $$
 ## Inline Example
 
 Here is an inline equation: $c =\pm\sqrt{a^2 + b^2}$
+
+```md
+$c =\pm\sqrt{a^2 + b^2}$
+```
