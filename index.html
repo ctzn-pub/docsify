@@ -1,39 +1,53 @@
 <!-- Template for docsify -->
 <!-- Add options in the <script> tag below -->
 
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <script type="text/javascript" src="./_assets/js/tabscale.js"></script>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>docsifier</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ontopic" />
     <meta name="twitter:creator" content="@ontopic" />
-  
+
     <meta property="og:url" content="https://ontopic.io" />
     <meta property="og:title" content="Ontopic Doc Reference" />
-    <meta property="og:description" content="Useful commands and exemplars of docsify" />
+    <meta
+      property="og:description"
+      content="Useful commands and exemplars of docsify"
+    />
     <meta property="og:image" content="" />
-  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" href="/_assets/css/custom.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  
-  
+    <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link rel="stylesheet" href="/_assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"
+    />
   </head>
   <body onload="javascript: TabScale.handleScaling('tableauViz');">
-
- 
-
     <div id="app"></div>
-
 
     <script>
       window.$docsify = {
@@ -41,69 +55,83 @@
         search: {
           placeholder: 'Search',
           depth: 3,
-        },   'flexible-alerts': {
-      comment: {
-        label: 'Comment',
+        },
+        'flexible-alerts': {
+          comment: {
+            label: 'Comment',
 
-
-        // Assuming that we use Font Awesome
-        icon: 'fas fa-comment',
-        className: 'note'
-      }
-    },
+            // Assuming that we use Font Awesome
+            icon: 'fas fa-comment',
+            className: 'note',
+          },
+        },
         name: 'ONtopic.io',
         repo: 'https://github.com/ctzn-pub/',
-        homepage: "homepage.md",
+        homepage: 'homepage.md',
         coverpage: true,
         loadSidebar: true,
         subMaxLevel: 3,
+        sidebarDisplayLevel: 1, // set sidebar display level
+
         copyCode: {
-          buttonText : 'Copy',
-          errorText  : 'Error',
-          successText: 'Copied'
+          buttonText: 'Copy',
+          errorText: 'Error',
+          successText: 'Copied',
         },
         tabs: {
-    persist    : true,      // default
-    sync       : true,      // default
-    theme      : 'classic', // default
-    tabComments: true,      // default
-    tabHeadings: true       // default
-  },
+          persist: true, // default
+          sync: true, // default
+          theme: 'classic', // default
+          tabComments: true, // default
+          tabHeadings: true, // default
+        },
         auto2top: true,
         plugins: [
-          function(hook) {
+          function (hook) {
             var footer = [
               '<hr/>',
               '<footer>',
-              '<span>this is the footer </span>', 
-              '</footer>'
+              '<span>this is the footer </span>',
+              '</footer>',
             ].join('');
-  
-            hook.afterEach(function(html) {
+
+            hook.afterEach(function (html) {
               return html + footer;
             });
-          }
-        ]
-      }
+          },
+        ],
+      };
     </script>
     <!-- Docsify v4 -->
-     <!-- docsify-themeable (latest v0.x.x) -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- docsify-themeable (latest v0.x.x) -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
-    <script src="//unpkg.com/docsify-copy-code@2"></script>
-    <!-- add support of prism (language highlighting for R) -->
+
+    <!-- Search -->
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <!-- MAaterial Icons -->
     <script src="//unpkg.com/docsify-material-icons/dist/docsify-material-icons.min.js"></script>
-  <script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
-  <!-- docsify (latest v4.x.x)-->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+    <!-- Glossary -->
+    <script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
 
+    <!-- Katex styling -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
-<!-- docsify-tabs (latest v1.x.x) -->
-<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <!-- docsify-tabs (latest v1.x.x) -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
+    <!-- Flexible alerts -->
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+    <!-- Sidebar Collapse -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+    <!-- Pagination -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+    <!-- Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
-  </html>
-  
+</html>

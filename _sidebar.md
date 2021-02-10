@@ -1,6 +1,4 @@
 - [About](/)
-- [Text](/text)
-- [Images](/images)
 - [Tableau](/tableau)
 - [tableauR](/tableauR)
 - [Including Widgets](/includes)
@@ -10,3 +8,6 @@
 - [Tabs](/tabs)
 - [Alerts](/alerts)
 - [Glossary](/_glossary 'Glossary of defined terms')
+- [Text](/text)
+  - [Images](/images)
+  - [Alerts](/alerts)
