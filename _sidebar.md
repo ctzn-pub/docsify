@@ -7,6 +7,7 @@
 - [Equations](/equations)
 - [Tabs](/tabs)
 - [Alerts](/alerts)
+- [Footnotes](/footnotes)
 - [Glossary](/_glossary 'Glossary of defined terms')
 - [Text](/text)
   - [Images](/images)
