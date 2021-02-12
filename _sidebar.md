@@ -2,6 +2,8 @@
 - [Tableau](/tableau)
 - [tableauR](/tableauR)
 - [Including Widgets](/includes)
+- [Icons](/icons)
+- [Lottie Files](/lottie)
 - [Widgets II](/iframe)
 - [Slides](/slideshows)
 - [Equations](/equations)
