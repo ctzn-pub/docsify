@@ -1,4 +1,5 @@
 - [About](/)
+- [Google Trends](/googletrends)
 - [Tableau](/tableau)
 - [tableauR](/tableauR)
 - [Including Widgets](/includes)
